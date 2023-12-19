@@ -5,9 +5,10 @@ import time
 import os
 
 current_directory = os.getcwd()
+print(current_directory)
 
 # Combine the current directory with the filename
-csv_file_path = os.path.join(current_directory, 'FILTEREDCOUNTRIES.csv')
+csv_file_path = os.path.join(current_directory, 'FilteredCountries.xlsx')
 
 # Read the CSV file
 country_codes_df = pd.read_csv(csv_file_path)
